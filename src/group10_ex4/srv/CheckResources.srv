@@ -1,0 +1,6 @@
+# Request part
+int32 current_apples_n    # Current number of apples (n) in the burrow
+int32 burrow_size_s       # Size of the burrow (s)
+---
+# Response part
+bool can_refill_burrow    # True if turtlebot found enough apples to refill (s-n)
